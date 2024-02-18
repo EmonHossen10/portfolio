@@ -118,27 +118,31 @@ const Contact = () => {
         >
           <h2 className="text-[#ccd6f6] text-2xl font-bold ">Email</h2>
           <p className="text-[#39f4ed] text-xl font-semibold ">
-            mahadihasan8461@gmail.com (Recommended)
+            emonhosen1000.com (Recommended)
           </p>
-          <h2 className="text-[#ccd6f6] text-2xl font-bold ">Mobile</h2>
+          {/* <h2 className="text-[#ccd6f6] text-2xl font-bold ">Mobile</h2>
           <p className="text-[#39f4ed] text-xl font-semibold ">
             +8801865-697584
-          </p>
-          <h2 className="text-[#ccd6f6] text-2xl font-bold ">Whats app</h2>
+          </p> */}
+          {/* <h2 className="text-[#ccd6f6] text-2xl font-bold ">Whats app</h2>
           <p className="text-[#39f4ed] text-xl font-semibold ">
             +8801865-697584 (Always Available)
-          </p>
+          </p> */}
           <h2 className="text-[#ccd6f6] text-2xl font-bold ">Social</h2>
           <div className="flex gap-2">
-            <Link className="text-[#39f4ed] text-xl font-semibold underline">
+            {/* <Link className="text-[#39f4ed] text-xl font-semibold underline">
               Facebook
-            </Link>
-            <Link className="text-[#39f4ed] text-xl font-semibold underline">
+            </Link> */}
+            <Link 
+            to="https://www.linkedin.com/in/md-emon-hossen-89b724283/"
+            target="_blank"
+            className="text-[#39f4ed] text-xl font-semibold underline  ">
+              
               Linkedin
             </Link>
-            <Link className="text-[#39f4ed] text-xl font-semibold underline">
+            {/* <Link className="text-[#39f4ed] text-xl font-semibold underline">
               Twitter
-            </Link>
+            </Link> */}
           </div>
           <h2 className="text-[#ccd6f6] text-2xl font-bold ">Address</h2>
           <p className="text-[#39f4ed] text-xl font-semibold ">

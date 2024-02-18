@@ -4,6 +4,8 @@ import CountUp from "react-countup";
 import Tilt from "react-parallax-tilt";
 AOS.init();
 
+import img1 from "../../../../public/img1.jpg"
+
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -26,7 +28,7 @@ const About = () => {
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
             <div className="bg-[#0000003a]  rounded-2xl h-96">
               <img
-                src="/mahadi2.jpg"
+                src={img1}
                 alt="Your Photo"
                 className="object-cover h-full w-full opacity-90"
               />
@@ -66,13 +68,13 @@ const About = () => {
               <Tilt tiltMaxAngleX={24} tiltMaxAngleY={24}>
                 <div className="p-4 bg-[#0000003a] text-center">
                   <h1 className="text-white font-bold text-2xl">
-                    <CountUp end={5} duration={5} enableScrollSpy={true} />
+                    <CountUp end={3} duration={5} enableScrollSpy={true} />
                   </h1>
                   <p className="text-[#8892b0]">Project</p>
                   <p className="text-[#8892b0]">Completed</p>
                 </div>
               </Tilt>
-              <Tilt tiltMaxAngleX={24} tiltMaxAngleY={24}>
+              {/* <Tilt tiltMaxAngleX={24} tiltMaxAngleY={24}>
                 <div className="p-4 bg-[#0000003a] text-center">
                   <h1 className="text-white font-bold text-2xl">
                     <CountUp end={3} duration={5} enableScrollSpy={true} />
@@ -80,11 +82,17 @@ const About = () => {
                   <p className="text-[#8892b0]">Happy</p>
                   <p className="text-[#8892b0]">Client</p>
                 </div>
-              </Tilt>
+              </Tilt> */}
             </div>
             <Link
-              to="contact"
+              
               className="text-white border-2 px-5 py-2  hover:bg-[#39f4ed] hover:text-black duration-300 border-[#39f4ed] font-semibold"
+
+               
+          
+              activeClass="active"
+              spy={true}
+              smooth={true}
             >
               Contact With Me
             </Link>

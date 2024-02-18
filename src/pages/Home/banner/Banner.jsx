@@ -1,8 +1,11 @@
+/* eslint-disable no-unused-vars */
 import "animate.css";
+ 
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import img1 from "../../../../public/img2.jpg"
 
 const Banner = () => {
   return (
@@ -12,13 +15,13 @@ const Banner = () => {
     >
       <div className="flex items-center ">
         <div className="flex flex-col items-center gap-3">
-          <Link to="https://github.com/mahadi61" target="_blank">
+          <Link to="https://github.com/EmonHossen10" target="_blank">
             <FaGithubSquare className="text-[#8892b0] text-3xl" />
           </Link>
-          <Link to="https://www.facebook.com/mthmahadi/" target="_blank">
+          {/* <Link to="https://www.facebook.com/mthmahadi/" target="_blank">
             <FaFacebookSquare className="text-[#8892b0] text-3xl" />
-          </Link>
-          <Link to="https://www.linkedin.com/in/mahadihasan61/" target="_blank">
+          </Link> */}
+          <Link to="https://www.linkedin.com/in/md-emon-hossen-89b724283/" target="_blank">
             <FaLinkedin className="text-[#8892b0] text-3xl" />
           </Link>
           <div className="border-white border-e-2 w-0 h-16"></div>
@@ -29,11 +32,11 @@ const Banner = () => {
             sequence={[
               "Md",
               700,
-              "Md Mahadi",
+              "Md Emon",
               700,
-              "Md Mahadi Hasan",
+              "Md Emon Hossen",
               700,
-              "Md Mahadi",
+              "Md Emon",
               700,
               "Md",
               700,
@@ -52,7 +55,7 @@ const Banner = () => {
             experience.
           </p>
           <Link
-            to="https://drive.google.com/uc?export=download&id=19mRHs80NEQ31x7j7iNmiE_2Y9SxvY9nz"
+            // to="https://drive.google.com/uc?export=download&id=19mRHs80NEQ31x7j7iNmiE_2Y9SxvY9nz"
             className="text-white border-2 px-5 py-2  hover:bg-[#39f4ed] hover:text-black duration-300  border-[#39f4ed] font-semibold mt-4  "
           >
             Download Resume
@@ -63,7 +66,7 @@ const Banner = () => {
         <Tilt tiltMaxAngleX={25} tiltMaxAngleY={25}>
           <div className="bg-[#0000003a] rounded-2xl h-96 animate__animated  animate__zoomIn">
             <img
-              src="/mahadi_icon.jpg"
+              src={img1}
               alt="Your Photo"
               className="object-cover h-full w-full opacity-90 "
             />

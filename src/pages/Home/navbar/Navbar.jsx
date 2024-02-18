@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-scroll";
+ 
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,8 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between w-full bg-[#0C134F] z-10 max-w-6xl fixed top-0 py-5 ">
       <div className="">
-        <h1 className="text-[#ccd6f6] font-bold  text-3xl">Mahadi Hasan</h1>
+        <h1 className="text-[#ccd6f6] font-bold  text-3xl">Emon Hossen</h1>
+ 
       </div>
 
       <div className={` flex items-center gap-4`}>

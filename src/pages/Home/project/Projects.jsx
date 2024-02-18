@@ -20,15 +20,15 @@ const Projects = () => {
             data-aos-once="false"
             className=" gap-2 p-4  rounded-xl bg-[#00000067] "
           >
-            <img src="/dance-studio.png" alt="" className=" object-cover " />
+            <img src="https://i.ibb.co/vBbpqRm/p1.png" alt="" className=" object-cover " />
             <div className="flex flex-col gap-1">
               <h2 className="text-[#ccd6f6] text-2xl font-bold">
-                {" "}
-                Dance Studio
+               
+                Digital Tech
               </h2>
               <div>
                 <Link
-                  to="https://dance-studio-674c7.web.app/"
+                  to="https://65c9251bcd4bfb58dd306f73--joyful-melba-507ba4.netlify.app/"
                   target="_blank"
                   className="text-[#ccd6f6] text-xl underline"
                 >
@@ -36,7 +36,7 @@ const Projects = () => {
                 </Link>
                 <span className="text-[#ccd6f6] text-xl"> | </span>
                 <Link
-                  to="https://github.com/mahadi61/dance-studio-client"
+                  to="https://github.com/EmonHossen10/a10-digital-tech-client?tab=readme-ov-file"
                   target="_blank"
                   className="text-[#ccd6f6] text-xl underline"
                 >
@@ -44,7 +44,7 @@ const Projects = () => {
                 </Link>
               </div>
               <p className="text-[#ccd6f6] text-xl">
-                React | Express.js | MongoDB | Stripe
+                React | Express.js | MongoDB  
               </p>
             </div>
           </div>
@@ -60,12 +60,12 @@ const Projects = () => {
             data-aos-once="false"
             className=" gap-2 p-4  rounded-xl bg-[#00000067] "
           >
-            <img src="/toy-world.png" alt="" className=" object-cover" />
+            <img src="https://i.ibb.co/rdBV1pL/p2.png" alt="" className=" object-cover" />
             <div className="flex flex-col gap-1">
-              <h2 className="text-[#ccd6f6] text-2xl font-bold">Toy World</h2>
+              <h2 className="text-[#ccd6f6] text-2xl font-bold">Service Master</h2>
               <div>
                 <Link
-                  to="https://toy-world-c2e99.web.app/"
+                  to="https://655bb2950553e718f37aaa29--earnest-macaron-5b91b8.netlify.app/"
                   target="_blank"
                   className="text-[#ccd6f6] text-xl underline"
                 >
@@ -73,7 +73,7 @@ const Projects = () => {
                 </Link>
                 <span className="text-[#ccd6f6] text-xl"> | </span>
                 <Link
-                  to="https://github.com/mahadi61/toy-world"
+                  to="https://github.com/EmonHossen10/a11-service-sharing-client"
                   target="_blank"
                   className="text-[#ccd6f6] text-xl underline"
                 >
@@ -98,12 +98,12 @@ const Projects = () => {
             data-aos-once="false"
             className=" gap-2 p-4  rounded-xl bg-[#00000067] "
           >
-            <img src="/dream-job.png" alt="" className=" object-cover" />
+            <img src="https://i.ibb.co/D863ftD/p3.png" alt="" className=" object-cover" />
             <div className="flex flex-col gap-1">
               <h2 className="text-[#ccd6f6] text-2xl font-bold">Dream Job</h2>
               <div>
                 <Link
-                  to="https://stellular-pudding-5f29b1.netlify.app/"
+                  to="https://fast-news-80a2e.web.app/"
                   target="_blank"
                   className="text-[#ccd6f6] text-xl underline"
                 >
@@ -111,18 +111,18 @@ const Projects = () => {
                 </Link>
                 <span className="text-[#ccd6f6] text-xl"> | </span>
                 <Link
-                  to="https://github.com/mahadi61/dream-jobs"
+                  to="https://github.com/EmonHossen10/a-12-fast-news"
                   target="_blank"
                   className="text-[#ccd6f6] text-xl underline"
                 >
                   GitHub
                 </Link>
               </div>
-              <p className="text-[#ccd6f6] text-xl">React | Bootstrap</p>
+              <p className="text-[#ccd6f6] text-xl">React | Express | Node | MongoDb | Stripe</p>
             </div>
           </div>
         </Tilt>
-        <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
+        {/* <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
           <div
             data-aos="zoom-in"
             data-aos-offset="200"
@@ -195,7 +195,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-        </Tilt>
+        </Tilt> */}
       </div>
     </div>
   );
