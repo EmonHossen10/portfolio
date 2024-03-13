@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import "animate.css";
- 
+
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import img1 from "../../../../public/img2.jpg"
+import img1 from "../../../../public/img2.jpg";
 
 const Banner = () => {
   return (
@@ -18,17 +18,21 @@ const Banner = () => {
           <Link to="https://github.com/EmonHossen10" target="_blank">
             <FaGithubSquare className="text-[#8892b0] text-3xl" />
           </Link>
-          {/* <Link to="https://www.facebook.com/mthmahadi/" target="_blank">
-            <FaFacebookSquare className="text-[#8892b0] text-3xl" />
-          </Link> */}
-          <Link to="https://www.linkedin.com/in/md-emon-hossen-89b724283/" target="_blank">
+
+          <Link
+            to="https://www.linkedin.com/in/md-emon-hossen-89b724283/"
+            target="_blank"
+          >
             <FaLinkedin className="text-[#8892b0] text-3xl" />
           </Link>
           <div className="border-white border-e-2 w-0 h-16"></div>
         </div>
         <div className="ps-3">
           <p className="text-xl text-[#39f4ed]">Hi, I am</p>
-          <TypeAnimation
+          <h2 className="md:text-4xl text-xl text-[#8892b0] font-semibold mb-2 animate__animated animate__zoomIn">
+            Mohammad Easin Arafat Emon
+          </h2>
+          {/* <TypeAnimation
             sequence={[
               "Md",
               700,
@@ -45,17 +49,35 @@ const Banner = () => {
             ]}
             className="md:text-7xl text-3xl text-[#ccd6f6] font-bold mb-5"
             repeat={Infinity}
-          />
+          /> */}
 
           <h2 className="md:text-5xl text-xl text-[#8892b0] font-semibold mb-2 animate__animated animate__zoomIn">
-            MERN Stack Developer
+            <TypeAnimation
+              sequence={[
+                "MERN",
+                700,
+                "MERN Stack",
+                700,
+                "MERN Stack Developer",
+                700,
+                "Front-end",
+                700,
+                "Front-end Developer",
+                700,
+                "",
+                700,
+              ]}
+              className="md:text-7xl text-3xl text-[#ccd6f6] font-bold mb-5"
+              repeat={Infinity}
+            />
           </h2>
+
           <p className="text-[#8892b0]  mb-6">
             I am a skilled and passionate MERN Stack developer with one year
             experience.
           </p>
           <Link
-            // to="https://drive.google.com/uc?export=download&id=19mRHs80NEQ31x7j7iNmiE_2Y9SxvY9nz"
+             to="https://drive.google.com/uc?export=download&id=1g59yyixL3Ix3u4l9fJ3UWuNsaErSc0mm"
             className="text-white border-2 px-5 py-2  hover:bg-[#39f4ed] hover:text-black duration-300  border-[#39f4ed] font-semibold mt-4  "
           >
             Download Resume

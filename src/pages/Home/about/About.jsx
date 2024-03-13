@@ -58,9 +58,9 @@ const About = () => {
               <Tilt tiltMaxAngleX={24} tiltMaxAngleY={24}>
                 <div className="p-4 bg-[#0000003a] text-center ">
                   <h1 className="text-white font-bold text-2xl">
-                    <CountUp end={1} duration={7} enableScrollSpy={true} />
+                    <CountUp end={1} duration={7} enableScrollSpy={true} /> +
                   </h1>
-                  <p className="text-[#8892b0]">Years</p>
+                  <p className="text-[#8892b0]"> Years </p>
                   <p className="text-[#8892b0]">experience</p>
                 </div>
               </Tilt>

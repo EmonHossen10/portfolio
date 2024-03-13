@@ -78,10 +78,10 @@ const Skills = () => {
               <div className="flex justify-between mb-1">
                 <p className="text-[#ccd6f6] text-xl">Next Js</p>
                 <p className="text-[#ccd6f6] text-xl">
-                  <CountUp end={70} duration={3} enableScrollSpy={true} />%
+                  <CountUp end={40} duration={3} enableScrollSpy={true} />%
                 </p>
               </div>
-              <div style={{ width: "70%" }} className="h-1 bg-[#39f4ed]"></div>
+              <div style={{ width: "40%" }} className="h-1 bg-[#39f4ed]"></div>
             </div>
           </div>
         </div>
