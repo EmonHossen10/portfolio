@@ -71,7 +71,7 @@ const Banner = () => {
               repeat={Infinity}
             />
           </h2>
-          <h1 className="text-white">Lorem ipsum dolor sit amet consectetur.</h1>
+          
 
           <p className="text-[#8892b0]  mb-6">
             I am a skilled and passionate MERN Stack developer with one year
