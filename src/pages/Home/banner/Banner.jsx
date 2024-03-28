@@ -78,7 +78,8 @@ const Banner = () => {
             experience.
           </p>
           <Link
-             to="https://drive.google.com/uc?export=download&id=1g59yyixL3Ix3u4l9fJ3UWuNsaErSc0mm"
+             to="https://drive.google.com/uc?export=download&id=1Z6jG2V0ynV_jmY3b00N9lVaOptvN3icM
+             "
             className="text-white border-2 px-5 py-2  hover:bg-[#39f4ed] hover:text-black duration-300  border-[#39f4ed] font-semibold mt-4  "
           >
             Download Resume
